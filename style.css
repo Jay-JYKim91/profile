@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Trispace:wght@400;800&display=swap');
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+h1 {
+  background-color: #ffebeb;
+  font-family: 'Trispace', sans-serif;
+}
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+body {
+  background-color: #f5f6f9;
+}
+h3{
+  color: #520101;
+}
+a {
+  font-family: 'Trispace', sans-serif;
+  background-color: #af4141;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+  a:hover{
+    color: #af4141;
+    background-color: #f7f7f7;
+  }
+.img-circle {
+    border-radius: 50%;
+}
+.card-white {
+    background-color: #f7f7f7;
+    padding: 40px;
+    box-shadow: 10px 10px 15px #bfafaf;
+    border-radius: 4px;
+    margin: 40px 50px;
+    text-align: center;
+}
+.btn-red {
+    background-color: #af4141;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    color: red;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
